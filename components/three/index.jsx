@@ -27,6 +27,8 @@ const Sphere = () => {
     }
   });
 
+  console.log('test');
+
   //Move Ball
   const ballRef = useRef(null);
   useEffect(() => {
